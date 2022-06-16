@@ -11,6 +11,8 @@ function setParams(config) {
     return config
 }
 
+
+
 export default function(axios) {
     axios.interceptors.request.use(setParams);
 }
