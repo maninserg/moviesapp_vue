@@ -1,9 +1,12 @@
 import axios from "@/plugins/axios"
+import IDs from "../mock/imdb_top.250"
 
 
 const moviesStore = {
     namespaced: true,
-    state: {},
+    state: {
+        top2IDs: IDs
+    },
     getters: {},
     mutations: {},
     actions: {
